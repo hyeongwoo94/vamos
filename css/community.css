@@ -1,0 +1,235 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,dl{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#community{}
+.community_home{}
+.community_bg{}
+.community_bg .community_now{
+  border: solid 3px #b5b5b5;
+  padding: 35px 0 0 0;
+}
+.community_bg .community_now .community_text{
+  height: 150px;
+}
+.community_bg .community_now .community_text .now_input{
+  font-size: 20px;
+  width: 100%;
+  outline: none;
+  letter-spacing: -1px;
+  border: none;
+  text-indent: 30px;
+}
+.community_bg .community_now .community_local{
+
+}
+.community_bg .community_now .community_local >ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.community_bg .community_now .community_local >ul > li{
+  flex: none;
+  width: 10%;
+  margin: 0 10px 15px 0;
+}
+.community_bg .community_now .community_local >ul > li >input{
+  font-size: 15px;
+  letter-spacing: -1px;
+  line-height: 30px;
+  background-color: aliceblue;
+  border: none;
+  outline: solid 1px #ccc;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+.community_bg .community_now .community_btn{
+  border-top: solid 3px #b5b5b5;
+  text-align: right;
+}
+.community_bg .community_now .community_btn::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.community_bg .community_now .community_btn > .community_p{
+  float: left;
+  margin: 16px;
+  font-size: 12px;
+  letter-spacing: -1px;
+  color: #949494;
+  font-weight: bolder;
+}
+.community_bg .community_now .community_btn .btn_now{
+  font-size: 18px;
+  letter-spacing: -1px;
+  padding: 10px 25px;
+  outline: none;
+  background-color: #418bf9;
+  color: #fff;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+.community_bg .community_now .community_btn .btn_now:hover{
+  background-color:  #ef926a;
+}
+.community_list{
+  margin: 30px 0 50px 0;
+}
+.list_home{}
+.list_home > li{
+  border-bottom: solid 1px #ccc;
+  margin-top: 30px;
+}
+.list_home > li::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.list_home > li > .xi-emoticon-happy-o{
+  float: left;
+  width: 10%;
+  font-size: 44px;
+  text-align: center;
+}
+.list_home > li > .xi-emoticon-smiley-o{
+  float: left;
+  width: 10%;
+  font-size: 44px;
+  text-align: center;
+}
+.list_home > li .list_id{
+  float: left;
+  color: #333;
+  font-size: 22px;
+  letter-spacing: -1px;
+  margin: 0;
+  width:20%;
+  margin-top: 13px;
+}
+.list_home > li .list_main{
+  float: left;
+  width: 50%;
+  font-size: 17px;
+  margin-top: 17px;
+}
+.list_home > li .list_date{
+  float: right;
+  font-size: 17px;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+
+#life{}
+.life_home{}
+.life_bg{}
+.life_bg .life_now{
+  border: solid 3px #b5b5b5;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.life_text{
+  outline-color: none;
+  border-radius: 0px;
+  line-height: 17px;
+  border-bottom: solid 1px #333 !important;
+  border: none;
+  letter-spacing: -1px;
+  text-align: center;
+  font-size: 14px;
+  outline: none;
+}
+
+.life_a{}
+.life_a::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.life_a > li{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.life_b{
+  border: solid 1px #ccc;
+  height: 290px;
+  margin: 10px 10px 35px 10px;
+}
+.life_b .life_img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.life_b > .xi-image-o{
+  font-size: 100px;
+    color: #ccc;
+    display: block;
+    text-align: center;
+    margin-top: 58px;
+}
+.life_title > .btn_now{
+  font-size: 18px;
+  letter-spacing: -1px;
+  padding: 10px 25px;
+  outline: none;
+  background-color: #418bf9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+.life_h{
+  text-align: center;
+  font-size: 30px;
+  margin: 30px auto;
+}
+
+.pic_life{
+  margin-bottom: 50px;
+}
+#life_2 .slick-next{
+  right: -15px;
+  top: 140px;
+}
+#life_2 .slick-next:before{
+    color: #333;
+    font-size: 30px;
+  }
+
+#life_2 .slick-prev{
+  left: -25px;
+  top: 140px;
+}
+#life_2 .slick-prev:before{
+    color: #333;
+    font-size: 30px;
+  }
+#life_2 .slick-slide img{
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  border: solid 3px #ccc;
+}
+#life_2 .se07 .home_life .pic_life a > span{
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  font-size: 17px;
+  color: #333;
+}
+#life_2 .se07 .home_life .pic_life a > p{
+  text-align: center;
+  color: #333;
+}

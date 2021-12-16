@@ -1,0 +1,223 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,dl{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#main_cl{
+  background-image: url("/img/cl/cl-main2.jpg");
+  opacity: 0.8;
+  height: 260px;
+}
+.home{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.home > .big_h3{
+  font-size: 50px;
+  padding-top: 78px;
+  font-family: 'ELAND_Choice_M';
+  color: #fff;
+  letter-spacing: 0px;
+  margin: 00px 0 00px 0px;
+}
+.home p{
+  font-size: 20px;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+
+#home{
+  width: 1200px;
+  margin: 0 auto;
+}
+#home::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+/* 좌측 메뉴 */
+#aside{
+  width: 200px;
+  height: 300px;
+  float: left;
+
+}
+.aside_home{
+  position: fixed;
+}
+.menu{
+  text-align: center;
+}
+.menu ul{
+  border: solid 1px #c1c1c1;
+}
+.menu ul li{
+  width: 180px;
+  border-bottom: solid 1px #c1c1c1;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.menu ul li:last-child{
+  border: none;
+}
+.menu ul .color_bg{
+  background-color: #1461AD;
+}
+.menu ul .color_bg a{
+  color: #fff;
+}
+.menu ul li a{
+  font-size: 20px;
+  line-height: 89px;
+  letter-spacing: -1px;
+  color: #777;
+  display: block;
+}
+.menu ul li a:hover{
+  background-color: #BDEFFF;
+  color: #fff;
+
+}
+/* -----------------------------main */
+#se01{
+  float: left;
+  width: 83%;
+}
+#se01 .text{
+    margin: 100px auto;
+}
+#se01 .text p{
+  text-align: center;
+  margin: 30px 0 80px 0;
+  letter-spacing: -1px;
+  font-size: 25px;
+}
+#se01 .text .text2{
+  text-align: center;
+}
+#se01 .text .text2 span{
+  font-size: 15px;
+  color: #949494;
+  display: block;
+}
+#se01 .cl_pic{
+  margin: 50px auto;
+}
+#se01 .cl_pic ul{}
+#se01 .cl_pic ul li{
+  border-bottom: solid 1px #1461AD;
+}
+#se01 .cl_pic ul li:first-child{
+  border-top: solid 1px #1461AD;
+}
+#se01 .cl_pic ul li h3{
+  color: #333;
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 60px 0 20px 10px;
+}
+#se01 .cl_pic ul li img{
+  display: block;
+  margin: 55px auto;
+}
+#se01 .cl_pic ul li span{
+  text-align: center;
+  display: inline-block;
+}
+#se01 .cl_color{
+    margin: 60px 0 110px 0;
+    text-align: center;
+}
+.cl_color ul{}
+.cl_color ul::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.cl_color ul li{
+  float: left;
+  width: 33.33%;
+  margin-top: 40px;
+}
+.cl_color h3{
+  color: #333;
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 20px 0 20px 10px;
+  text-align: left;
+}
+.cl_color ul li h4{
+  color: #333;
+  font-size: 20px;
+  letter-spacing: -1px;
+  margin: 20px 0 50px 0;
+
+}
+.cl_color ul li span{
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.cl_color ul li:nth-child(1) span:nth-child(3){
+  background-color: #2368d8;
+}
+.cl_color ul li:nth-child(1) span:nth-child(2){
+  background-color: #fdd300;
+}
+.cl_color ul li:nth-child(2) span{
+  background-color: #ef926a;
+}
+.cl_color ul li:nth-child(3) span:nth-child(3){
+  background-color: #BDEFFF;
+}
+.cl_color ul li:nth-child(3) span:nth-child(2){
+  background-color: #1461AD;
+}
+.top1{
+  position: relative;
+}
+.top1 .icon{
+  position: absolute;
+  bottom: 20px;
+  right: -100px;
+}
+.top1 .icon a{
+  display: block;
+}
+.top1 .icon a:hover span{
+  opacity: 1;
+}
+.top1 .icon a span{
+  width: 40px;
+  height: 40px;
+  background-color: #fdd300;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  opacity: 0.7;
+}
+.top1 .icon a span p{
+  color: #333;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.top1 .icon span i{
+  font-size: 30px;
+  color: #fff;
+  margin: 0 auto;
+  margin: 4px auto;
+}

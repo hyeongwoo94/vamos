@@ -1,0 +1,154 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,dl{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#main_notice{
+  background-image: url("/img/cl/cl-main3.jpg");
+  opacity: 0.8;
+  height: 260px;
+}
+.home{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.home > .big_h3{
+  font-size: 50px;
+  padding-top: 78px;
+  font-family: 'ELAND_Choice_M';
+  color: #fff;
+  letter-spacing: 0px;
+  margin: 00px 0 00px 0px;
+}
+.home p{
+  font-size: 20px;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+
+#home{
+  width: 1200px;
+  margin: 0 auto;
+}
+#home::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+/* 좌측 메뉴 */
+#aside{
+  width: 200px;
+  height: 300px;
+  float: left;
+
+}
+.aside_home{
+  position: fixed;
+}
+.menu{
+  text-align: center;
+}
+.menu ul{
+  border: solid 1px #c1c1c1;
+}
+.menu ul li{
+  width: 180px;
+  border-bottom: solid 1px #c1c1c1;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.menu ul li:last-child{
+  border: none;
+}
+.menu ul .color_bg{
+  background-color: #1461AD;
+}
+.menu ul .color_bg a{
+  color: #fff;
+}
+.menu ul li a{
+  font-size: 20px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #777;
+  display: block;
+}
+.menu ul li a:hover{
+  background-color: #BDEFFF;
+  color: #fff;
+
+}
+
+
+/* 좌측메뉴 끝 */
+#notice{
+  width: 92%;
+  margin: 0px 0 85px 94px;
+  box-sizing: border-box;
+    /*outline: 1px dashed black;*/
+}
+#notice2{
+  width: 92%;
+  margin: 0px 0 85px 94px;
+  box-sizing: border-box;
+    /*outline: 1px dashed black;*/
+}
+#notice h2 {
+    font-size: 45px;
+    margin: 0px auto;
+    padding: 30px 10px 10px 10px;
+    color: #444;
+
+}
+#notice ul{
+
+}
+#notice ul::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+#notice ul li{
+  float: left;
+  width: 47%;
+  margin: 20px 11px;
+  border: solid 1px #333;
+  border-radius: 15px;
+}
+#notice ul li::after{
+  display: block;
+  content: "";
+}
+.bold_te{
+  color: #333;
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 0px 0 0px 0px;
+}
+.notice_num{
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin: 20px auto;
+}
+.notice_num span{
+  display: inline-block;
+}
+.notice_text{
+  width: 80%;
+  float: left;
+  margin: 45px auto;
+}
+.text_5{
+  margin-left: 25px;
+}

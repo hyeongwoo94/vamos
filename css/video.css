@@ -1,0 +1,301 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,dl{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+#video_top{
+  margin-top: 10px;
+}
+.video_bg{
+  width: 1200px;
+  margin: 0 auto;
+}
+.col_sp{
+  font-weight: bold;
+  display: inline-block;
+}
+.w1200{
+  width: 1200px;
+  margin: 0 auto;
+}
+.point{
+  color: #ef926a;
+  font-weight: bold;
+}
+.text_font{
+  font-family: 'InkLipquid';
+}
+#video{
+  width: 1900px;
+}
+#video .se01{}
+.video_nav{}
+.video_bigname{}
+.link_left2 > .btn{
+  position: absolute;
+  top: 0;
+  right: 15px;
+  display: inline-block;
+  background-color: transparent;
+  outline: none;
+  border: none;
+    cursor: pointer;
+}
+.btn > input{
+  display: none;
+
+}
+.btn > label{
+  cursor: pointer;
+}
+.btn > label > i{
+  font-size: 50px;
+  color: #fff;
+}
+input:checked + label > i{
+  color:#ff0000;
+}
+.asv{
+  color: #fff;
+}
+.video_bigname h2{
+  text-align: center;
+  margin: 60px 0 30px 0;
+  font-size: 45px;
+  letter-spacing: -2px;
+  font-family: 'twayair';
+}
+.video_bigname p{
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 80px;
+}
+.link_bg::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.link_bg{
+
+}
+.link_left{
+  float: left;
+  width: 60%
+}
+.link_left iframe{
+  width: 100%;
+}
+.link_right{
+  float: left;
+  width: 35%;
+  text-align: center;
+  margin: 25px 0 0px 50px;
+}
+.link_right .link_text > h3{
+  color: #333;
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin: 0 auto;
+  line-height: 40px;
+  }
+.link_right p{
+  line-height: 70px;
+  font-size: 18px;
+}
+.link_right button{
+  background-color: #2368d8;
+    line-height: 50px;
+    padding: 0 15px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+}
+.link_right button a{
+  display: inline-block;
+  color: #fff;
+}
+.se01 > ul{
+}
+.se01 > ul li{
+  margin: 50px auto;
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 50px;
+}
+.se01 > ul li:last-child{
+  border:none;
+}
+
+.upload{
+}
+.upload::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.upload li{
+  margin: 30px auto;
+  padding-bottom: 50px;
+  float: left;
+  width: 50%;
+}
+.link_left2{
+  position: relative;
+}
+.link_left2 a{
+  display: block;
+}
+.link_left2 img{
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+  border: solid 2px #cccccc;
+  box-sizing: border-box;
+}
+.link_right2{
+  text-align: center;
+}
+.link_right2 .link_text > h3{
+  color: #333;
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin: 0 auto;
+  line-height: 40px;
+  margin-top: 20px;
+  }
+.link_right2 p{
+  line-height: 70px;
+  font-size: 18px;
+}
+.link_right2 button{
+  background-color: #2368d8;
+    line-height: 50px;
+    padding: 0 15px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+}
+.link_right2 button a{
+  display: inline-block;
+  color: #fff;
+}
+
+.memory02_text{
+  text-align: right;
+  margin-top: 30px;
+}
+.memory02_text > a{
+  display: inline-block;
+}
+.memory02_text > a > button{
+    letter-spacing: -1px;
+    background-color: #fff;
+    border: solid 0.5px #ccc;
+    padding: 2px 5px;
+    margin-right: 6px;
+    display: inline-block;
+  }
+.memory02_text > a >button:hover{
+      background-color: rgba(189,239,255,0.5);
+    }
+.zxc:hover{
+  background-color: #ef926a;
+}
+
+.se03{
+  margin: 180px auto;
+}
+
+fieldset{
+  border: solid 3px #b5b5b5;
+  padding: 35px;
+}
+.upload > p > span{
+  font-size: 30px;
+  line-height: 60px;
+  display: inline-block;
+  letter-spacing: -1px;
+}
+.upload_name{
+    text-indent:10px;
+}
+.upload_img{
+  text-indent: 10px;
+}
+.upload > p >input[type="text"]{
+  line-height: 27px;
+  vertical-align: baseline;
+  width: 92%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #1461AD;
+
+}
+.no_up{
+  background-color: #f1f1f1;
+  width: 98%;
+  margin: 0 auto;
+  display: block;
+  line-height: 55px;
+  text-indent: 35px;
+}
+.upload_2{
+  margin: 50px auto;
+  height: 500px;
+  background-color: rgba(20, 97, 173, 0.5);
+  text-align: center;
+  width: 98%;
+}
+.xi-videocam-o{
+  text-align: center;
+  display: block;
+  font-size: 135px;
+  color: #333;
+  padding-top: 122px;
+}
+.upload_2 .upload_text{
+  text-align: center;
+  display: block;
+  color: #333;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  display: inline-block;
+}
+.upload_2 .last_up{
+  background-color: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-left: 70px;
+}
+.upload_sub{
+  text-align: center;
+  margin-bottom: 20px;
+}
+input[type="submit"],input[type="reset"]{
+  text-align: center;
+  width: 100px;
+  background-color: #fff;
+  outline: none;
+  margin-right: 2px;
+  border: none;
+  font-size: 20px;
+  line-height: 45px;
+  display: inline-block;
+}
+input[type="submit"]:hover{
+  background-color: #BDEFFF;
+}
+input[type="reset"]:hover{
+  background-color: #BDEFFF;
+}

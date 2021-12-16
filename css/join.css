@@ -1,0 +1,141 @@
+.short{
+  width: 49% !important;
+  height: 25px !important;
+  box-sizing: border-box;
+  margin-right: 1px;
+}
+
+
+#join_form{
+  width: 45%;
+  margin: 0 auto;
+}
+#join_form .join_pic > h1 > a{}
+#join_form .join_pic{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.join_home{
+  margin: 0 auto;
+  width: 50%;
+}
+.join_home form{}
+
+.join_first{
+  margin-top: 50px;
+}
+.join_first p{
+  line-height: 45px;
+}
+.join_first p .form_name{
+  display: block;
+
+}
+.join_first p input[type="text"]{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  line-height: 30px;
+}
+
+.join_first p input[type="password"]{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  line-height: 30px;
+}
+
+
+.join_second{
+}
+.join_second p{
+  line-height: 45px;
+}
+.join_second p .form_name{
+  display: block;
+}
+.join_second p input[type="text"]{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  line-height: 30px;
+}
+.join_second p input[type="text"]:focus{
+  border: solid 1px #2368d8;
+}
+.join_second p input[type="password"]{
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  line-height: 30px;
+}
+.join_second p input[type="password"]:focus{
+  border: solid 1px #2368d8;
+}
+.join_second p select{
+  width: 32%;
+  height: 30px
+}
+
+.join_thrid{
+}
+.join_thrid p{
+  line-height: 45px;
+}
+.join_thrid p .form_name{
+  display: block;
+  line-height: 45px;
+}
+.join_thrid p input[type="email"]{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  line-height: 30px;
+}
+.join_thrid p input[type="email"]:focus{
+  border: solid 1px #2368d8;
+
+}
+.join_thrid p input[type="text"]{
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  line-height: 30px;
+}
+.join_thrid p input[type="text"]:focus{
+  border: solid 1px #2368d8;
+}
+
+.join_thrid p input[type="button"]{
+  height: 39px;
+  width: 81px;
+  margin-bottom: 20px;
+  background-color: #2368d8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+.join_thrid p input[type="submit"]{
+  margin: 50px auto;
+  width: 100%;
+  height: 45px;
+  background-color: #2368d8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+.w0{
+  width: 50% !important;
+}
+.text_al{
+  text-align: center ;
+}
